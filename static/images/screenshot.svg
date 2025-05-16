@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" rx="10" fill="#F5F7FA"/>
+  <rect width="800" height="500" rx="10" fill="url(#paint0_linear)" fill-opacity="0.3"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="760" height="80" rx="10" fill="white" fill-opacity="0.15"/>
+  <rect x="20" y="20" width="760" height="80" rx="10" stroke="white" stroke-opacity="0.3"/>
+  
+  <!-- Logo -->
+  <circle cx="60" cy="60" r="30" fill="#6C63FF"/>
+  <path d="M45 45V75H75V45H45ZM70 70H50V50H70V70Z" fill="white"/>
+  
+  <!-- Header Text -->
+  <rect x="100" y="45" width="200" height="15" rx="5" fill="white" fill-opacity="0.8"/>
+  <rect x="100" y="65" width="150" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  
+  <!-- Main Content -->
+  <rect x="20" y="120" width="500" height="360" rx="10" fill="white" fill-opacity="0.15"/>
+  <rect x="20" y="120" width="500" height="360" rx="10" stroke="white" stroke-opacity="0.3"/>
+  
+  <!-- Upload Area -->
+  <rect x="40" y="160" width="460" height="200" rx="10" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.5" stroke-dasharray="5 5"/>
+  <circle cx="270" cy="230" r="40" fill="#6C63FF" fill-opacity="0.2"/>
+  <path d="M270 200V260M250 220H290" stroke="#6C63FF" stroke-width="5" stroke-linecap="round"/>
+  <rect x="170" y="280" width="200" height="15" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="200" y="300" width="140" height="15" rx="5" fill="white" fill-opacity="0.4"/>
+  
+  <!-- Button -->
+  <rect x="170" y="340" width="200" height="40" rx="5" fill="#6C63FF"/>
+  <rect x="220" y="352" width="100" height="15" rx="5" fill="white"/>
+  
+  <!-- Sidebar -->
+  <rect x="540" y="120" width="240" height="360" rx="10" fill="white" fill-opacity="0.15"/>
+  <rect x="540" y="120" width="240" height="360" rx="10" stroke="white" stroke-opacity="0.3"/>
+  
+  <!-- Sidebar Content -->
+  <rect x="560" y="140" width="200" height="20" rx="5" fill="white" fill-opacity="0.8"/>
+  <rect x="560" y="180" width="200" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="560" y="200" width="200" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="560" y="220" width="200" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="560" y="240" width="150" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  
+  <rect x="560" y="280" width="200" height="20" rx="5" fill="white" fill-opacity="0.8"/>
+  <rect x="560" y="320" width="200" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="560" y="340" width="200" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="560" y="360" width="200" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="560" y="380" width="150" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  <rect x="560" y="400" width="180" height="10" rx="5" fill="white" fill-opacity="0.6"/>
+  
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#4DB6AC" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,8 @@
+Please create a sample PDF file and place it in this directory to test the Suho PDF Reader.
+
+You can use any PDF file, such as:
+- A research paper
+- A resume
+- An offer letter
+- A technical manual
+- Any other document you want to analyze

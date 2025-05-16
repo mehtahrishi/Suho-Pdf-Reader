@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suho PDF Reader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="/static/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/static/images/logo.svg" alt="Suho PDF Reader Logo">
+            <div>
+                <h1>Suho PDF Reader ✨</h1>
+                <p>Upload a PDF and let Suho analyze it for you! 🧠📄</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="left-column">
+                <div class="glass-card upload-section">
+                    <h2>📤 Upload PDF</h2>
+                    <div class="file-upload" id="file-upload">
+                        <i class="fas fa-file-pdf"></i>
+                        <p>Drag & drop your PDF here or click to browse</p>
+                        <input type="file" id="file-input" accept=".pdf">
+                        <div class="file-name" id="file-name"></div>
+                    </div>
+                    <button class="analyze-btn" id="analyze-btn" disabled>Analyze PDF</button>
+                    <div class="error-message" id="error-message"></div>
+                </div>
+                
+                <div class="glass-card results-section" id="results-section">
+                    <h2>📑 Document Type</h2>
+                    <div class="doc-type" id="doc-type">Unknown</div>
+                    
+                    <h2>📝 Summary</h2>
+                    <div class="summary-content" id="summary-content">
+                        No summary available yet.
+                    </div>
+                </div>
+                
+                <div class="loading" id="loading">
+                    <i class="fas fa-spinner"></i>
+                    <p>Analyzing your PDF...</p>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <div class="glass-card">
+                    <h2>📋 About Suho</h2>
+                    <ul>
+                        <li><i class="fas fa-search"></i> Analyzes PDF documents</li>
+                        <li><i class="fas fa-tag"></i> Categorizes document types</li>
+                        <li><i class="fas fa-file-alt"></i> Generates comprehensive summaries</li>
+                        <li><i class="fas fa-chart-bar"></i> Extracts key information</li>
+                    </ul>
+                </div>
+                
+                <div class="glass-card">
+                    <h2>💡 How to Use</h2>
+                    <ol>
+                        <li><i class="fas fa-upload"></i> Upload a PDF document</li>
+                        <li><i class="fas fa-hourglass-half"></i> Wait for Suho to analyze the content</li>
+                        <li><i class="fas fa-list"></i> Review the document type and summary</li>
+                        <li><i class="fas fa-sync"></i> Upload a new document if needed</li>
+                    </ol>
+                    <p style="margin: 20px;">📜Suho can identify various document types:</p>
+                    <ul>
+                        <li><i class="fas fa-file-contract"></i> Offer Letters</li>
+                        <li><i class="fas fa-book"></i> Educational Resources</li>
+                        <li><i class="fas fa-theater-masks"></i> Scripts</li>
+                        <li><i class="fas fa-gavel"></i> Legal Documents</li>
+                        <li><i class="fas fa-chart-pie"></i> Reports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="glass-card">
+            <p>Suho PDF Reader &copy; 2025 | Powered by Hrishi Mehta & Groq AI 🗿</p>
+            <div class="social-links">
+                <a href="https://github.com/mehtahrishi"><i class="fab fa-github"></i></a>
+                <a href="https://portfolio-theta-lemon-33.vercel.app/"><i class="fas fa-user-tie"></i></a>
+                <a href="https://www.linkedin.com/in/hrishi-mehta-889732256/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
