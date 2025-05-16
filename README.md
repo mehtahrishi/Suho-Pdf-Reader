@@ -68,48 +68,11 @@ To use the beautiful glassmorphic web interface:
 source venv/bin/activate
 
 # Run the Flask app
-python server.py
+python app.py
 ```
 
 This will start a local web server at http://localhost:8080 where you can access the application.
 
-### Command Line Interface
-
-For quick analysis without a web interface:
-
-```bash
-# Activate the virtual environment
-source venv/bin/activate
-
-# Run the CLI tool
-python cli.py /path/to/your/document.pdf
-```
-
-Example output:
-```
-🔍 Analyzing PDF: example.pdf
-⏳ This may take a moment...
-
-================================================================================
-📑 Document Type: Research Paper
-================================================================================
-
-📝 Summary:
-# Research on Quantum Computing Applications
-
-## Main Topics:
-• Quantum computing fundamentals
-• Quantum algorithms and their advantages
-• Practical applications in cryptography
-• Future directions in quantum computing research
-
-## Key Findings:
-1. Quantum computers can solve certain problems exponentially faster than classical computers
-2. Shor's algorithm poses significant threats to current encryption methods
-3. Quantum machine learning shows promising results for complex data analysis
-...
-================================================================================
-```
 
 ## 🛠️ Technologies
 
@@ -135,11 +98,10 @@ suho-pdf-reader/
 │   │   └── main.js
 │   └── images/
 │       ├── favicon.ico
-│       ├── logo.png
-│       └── screenshot.png
+│       ├── logo.svg
+│       └── logo.png
 ├── templates/
 │   └── index.html
-├── cli.py
 ├── app.py
 ├── pdf_processor.py
 ├── requirements.txt
