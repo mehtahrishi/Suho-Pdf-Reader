@@ -1,6 +1,6 @@
 # Suho PDF Reader 📚✨
 
-![Suho PDF Reader Logo](static/images/logo.png)
+![Suho PDF Reader Logo](static/images/logo.svg)
 
 A smart, elegant PDF analysis tool that uses AI to identify document types and provide comprehensive summaries.
 
