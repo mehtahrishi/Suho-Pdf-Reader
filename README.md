@@ -1,6 +1,6 @@
 # Suho PDF Reader 📚✨
 
-![Suho PDF Reader Logo](static/images/logo.svg)
+![Suho PDF Reader Logo](static/images/logo.png)
 
 A smart, elegant PDF analysis tool that uses AI to identify document types and provide comprehensive summaries.
 
@@ -37,7 +37,7 @@ A smart, elegant PDF analysis tool that uses AI to identify document types and p
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/mehtahrishi/suho-pdf-reader.git
+   git clone https://github.com/mehtahrishi/Suho-Pdf-Reader
    cd suho-pdf-reader
    ```
 
@@ -72,8 +72,6 @@ python server.py
 ```
 
 This will start a local web server at http://localhost:8080 where you can access the application.
-
-![Web Interface Screenshot](static/images/screenshot.png)
 
 ### Command Line Interface
 
@@ -142,7 +140,7 @@ suho-pdf-reader/
 ├── templates/
 │   └── index.html
 ├── cli.py
-├── server.py
+├── app.py
 ├── pdf_processor.py
 ├── requirements.txt
 ├── .env
@@ -220,6 +218,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Hrishi Mehta.
 
 *Suho PDF Reader is not affiliated with Groq or Meta. Llama 3 is a trademark of Meta.*
